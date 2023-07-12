@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebargo">
+        <nav>
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/intro.html">My Intro</a></li>
+            <!-- <li><a href="/service.html">Services</a></li>
+            <li><a href="/blog.html">Blog</a></li> -->
+            <li><a href="/contact.html">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+            <img class="ham" src="hamburger.jpg" alt="" width="18px">
+            <img class="cross" src="cross.png" alt="" width="16px">
+        </div>
+
+        <div class="contactform">
+            <h1>Contact me </h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2498.534267583889!2d85.426863748193!3d27.672141790115788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1aafec32df31%3A0xdda339e731af9bfd!2sBhaktapur%20Durbar%20Square!5e0!3m2!1sen!2snp!4v1684246677290!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <div class="mb-3">
+
+                  <label  class="form-label">Name</label>
+                  <input class="form-control"  >
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email & phone number with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="Phone" class="form-label">Phone number</label>
+                  <input type="Phone" class="form-control" id="Phone">
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-label" name="desc" id="desc" cols="30" rows="10" placeholder="Enter any information here"></textarea>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-sm">Submit</button>
+              </form>
+          
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
