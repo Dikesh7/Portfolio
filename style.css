@@ -24,7 +24,7 @@ textarea{
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
     /* border: 1px solid black;  */
-   transition: transform 0.3s ease-in;
+   transition: transform 0.6s ease-in;
 }
 
 .sidebar nav {
