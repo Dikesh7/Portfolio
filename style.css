@@ -288,6 +288,11 @@ p {
     /* display: flex; */
     text-align: center;
 }
+.contactform p{
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-family: 'Fira Sans', sans-serif;
+}
 @media (max-width: 1227px){
     *{
         
