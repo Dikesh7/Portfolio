@@ -100,6 +100,33 @@ textarea{
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
 }
+.animated-text {
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #757272;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid transparent;
+    animation: typing 2s steps(28, end), blink-caret 0.5s step-end 5;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333;
+    }
+}
 .about {
     font-size: 2.em;
 }
